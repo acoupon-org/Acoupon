@@ -37,7 +37,7 @@ export default function Footer() {
       <div className="border-t border-slate-100 py-5">
         <div className="container-page flex flex-col gap-2 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
           <span>© {new Date().getFullYear()} ACoupon. All rights reserved.</span>
-          <span className="inline-flex items-center gap-1"><Mail className="size-3.5" /> hello@acoupon.in</span>
+          <span className="inline-flex items-center gap-1"><Mail className="size-3.5" /> acoupon.org@gmail.com</span>
         </div>
       </div>
     </footer>
