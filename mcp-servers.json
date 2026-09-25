@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "RapidAPI Hub - BlipADeal Worldwide Deals": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.rapidapi.com", "--header", "x-api-host: blipadeal-blipadeal-world-wide-deals.p.rapidapi.com", "--header", "x-api-key: ${RAPIDAPI_KEY}"]
+    },
+    "RapidAPI Hub - Free Coupon Codes": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.rapidapi.com", "--header", "x-api-host: cashnjoy-com-free-coupon-codes-v1.p.rapidapi.com", "--header", "x-api-key: ${RAPIDAPI_KEY}"]
+    },
+    "RapidAPI Hub - LinkMyDeals Coupon Feed": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.rapidapi.com", "--header", "x-api-host: linkmydeals.p.rapidapi.com", "--header", "x-api-key: ${RAPIDAPI_KEY}"]
+    },
+    "RapidAPI Hub - Get Promo Codes": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://mcp.rapidapi.com", "--header", "x-api-host: get-promo-codes.p.rapidapi.com", "--header", "x-api-key: ${RAPIDAPI_KEY}"]
+    },
+    "CashJosh": {
+      "command": "npx",
+      "args": ["-y", "cashjosh-mcp"]
+    }
+  }
+}
